@@ -1,0 +1,95 @@
+.iso10 { background-color: #FFE6F0; }
+.iso9 { background-color: #D8C5DB; }
+.iso8 { background-color: #EEEBF3; }
+.iso7 { background-color: #C5C8DB; }
+.iso6 { background-color: #E3F2FC; }
+.iso1 { background-color:#00587E;  }
+.iso2 { background-color: #00B3C7; }
+.iso3 { background-color: #4795D7; }
+.iso4 { background-color: #FAFAFA; }
+.iso5 { background-color: #C2EBF6; }
+.navbar{
+    position: fixed;
+    z-index: 100;
+}
+.menuIzq:hover{
+    background-color: #FFE6F0;
+    border-radius: 5px;
+}
+.menuDer:hover{
+    font-weight:bold;
+}
+.textMenuDer{
+    color: black;
+    text-decoration: underline;
+}
+.textMenuDer:hover{
+    color: #00587E;
+}
+.textMenuIzq:hover{
+    color: #00587E;
+}
+.cardIndex:hover{
+    background-color: #FFE6F0;
+    color:gray;
+    cursor: pointer;
+}
+.cardIndex{
+    background-color: #bbdefb;
+    color:gray;
+}
+.mtop06{
+    margin-top: 0.7rem;
+}
+h4{
+    color:gray;
+}
+.accordion-button {        
+    background-color: #FFE6F0;
+    height: 3rem;
+    color: black;   
+}
+.accordion-body{
+    padding: 1rem;
+    background-color: white;
+}
+.cardCitas:hover{
+    background-color: #FFE6F0;
+    color:gray;
+    cursor: pointer;
+}
+main{
+    min-height:37rem;
+}
+.imagenFondo{
+    background-image: url("https://img.freepik.com/foto-gratis/equipos-e-instrumentos-dentales-oficina-dentista-primer-plano-herramientas_8353-1676.jpg?w=1060&t=st=1684762795~exp=1684763395~hmac=6f52ebcc0f764bf7b87adb9fe6058f6108a06414e8f0d947360e7a786194c1cf");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.creditos{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    font-size: 0.7rem;
+}
+.ocultar {
+    display: none;
+}
+.mostrar {
+    display: block;
+}
+.textoSlider{
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2rem;
+    border-radius: 1rem
+}
+.navbar .menuIzq.active {
+    background-color: #f8f9fa; 
+    color: #000000;
+}
+.logosRRSS{
+    width: .5rem;
+}
